@@ -1,5 +1,6 @@
 @import "./global.css";
 
 /* components css files */
-@import "./components/header.css";
-@import "./components/button.css";
+@import "./css/header.css";
+@import "./css/footer.css";
+@import "./css/button.css";
