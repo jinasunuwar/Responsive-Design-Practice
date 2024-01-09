@@ -12,7 +12,7 @@
         padding: 96px 64px;
     }
 }
-@media (min-width:998px) {
+@media (min-width:992px) {
     .testimonial-card {
         padding: 128px 64px;
     }
