@@ -5,7 +5,7 @@
     background: var(--Brand-gradient, linear-gradient(90deg, #FE572E 0%, #FF4C80 100%));
     box-shadow: 0px 1.993px 1.595px 0px rgba(38, 31, 34, 0.07), 0px 4.529px 3.623px 0px rgba(38, 31, 34, 0.05), 0px 7.882px 6.306px 0px rgba(38, 31, 34, 0.05), 0px 12.522px 10.017px 0px rgba(38, 31, 34, 0.04), 0px 19.32px 15.456px 0px rgba(38, 31, 34, 0.04), 0px 30.147px 24.118px 0px rgba(38, 31, 34, 0.03), 0px 50.049px 40.039px 0px rgba(38, 31, 34, 0.02), 0px 100px 80px 0px rgba(38, 31, 34, 0.02);
     text-align: center;
-    display: inline-block;
+    display: inline-flex;
 }
 
 @media (min-width:768px) {
@@ -33,6 +33,11 @@
 }
 
 .btn-icon {
-    display: inline-flex;
     gap: 16px;
+    align-items: center;
+}
+
+.btn-icon .media-icon {
+    display: flex;
+    align-items: center;
 }
