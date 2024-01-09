@@ -18,6 +18,9 @@
     }
 }
 
+.testimonial-card p{
+    color: #261F22;
+}
 .testimonial-card .statement {
     margin-bottom: 64px;
 }
